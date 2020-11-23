@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "338202179428",
+    "firebase_url": "https://vipulstore-fe804.firebaseio.com",
+    "project_id": "vipulstore-fe804",
+    "storage_bucket": "vipulstore-fe804.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:338202179428:android:aa60d1fbc63b1f1691ec71",
+        "android_client_info": {
+          "package_name": "com.webbeansvipul.psstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "338202179428-l9qslp54uo5p2othjhmq09ecr59343dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2Cd5SKcZGSgdiLZm2hIsga7WDHejuyp8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "338202179428-l9qslp54uo5p2othjhmq09ecr59343dn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

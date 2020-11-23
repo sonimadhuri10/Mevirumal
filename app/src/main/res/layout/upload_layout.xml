@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:text="Have a prescription? Upload Here"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="10dp"
+            android:background="@drawable/button_background"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/llCamera"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_gravity="center"
+                    android:tint="@color/md_white_1000"
+                    android:src="@drawable/bt_ic_camera"
+                    android:layout_height="20dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:text="Camera"
+                    android:textColor="#fff"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:background="@color/md_white_1000"
+                android:layout_height="40dp">
+
+            </View>
+
+            <LinearLayout
+                android:id="@+id/llGallery"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:tint="@color/md_white_1000"
+                    android:src="@drawable/galery"
+                    android:layout_height="20dp">
+                </ImageView>
+
+                <TextView
+                    android:layout_marginTop="3dp"
+                    android:layout_width="match_parent"
+                    android:text="Gallery"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="12dp"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/imgPrescription"
+            android:layout_marginTop="20dp"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_height="200dp">
+        </ImageView>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-medium"
+            android:text="Note  - After upload your prescription our pharmacist will call you soon for inquiry on your register mobile number . "
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnUpload"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_background"
+            android:layout_width="match_parent"
+            android:layout_marginRight="20dp"
+            android:text="UPLOAD"
+            android:textColor="#fff"
+            android:layout_marginLeft="20dp"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
